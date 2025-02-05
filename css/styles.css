@@ -5,7 +5,7 @@ body {
 }
 
 /* reset */
-/* just a test */
+
 
 ul,
 ol {
@@ -148,6 +148,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  /* adding a bg picture */
 }
 
 .hero-container {
