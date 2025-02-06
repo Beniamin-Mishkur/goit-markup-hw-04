@@ -502,12 +502,12 @@ img {
 }
 
 .sm-text {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
 }
 
 .company-social-media-list {
@@ -529,7 +529,7 @@ img {
 }
 
 .company-social-media-link:hover,
-.company-social-media-link:hover {
+.company-social-media-link:focus {
   background-color: #31d0aa;
 }
 
