@@ -302,8 +302,12 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-member-descr {
-  padding: 32px 16px 8px;
+.team-member-descr-smedia {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-member-name {
@@ -319,6 +323,7 @@ img {
 
 .team-member-role {
   text-align: center;
+  padding-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -327,12 +332,12 @@ img {
   color: #434455;
 }
 
-.team-member-social-media {
+/* .team-member-social-media {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 0 32px;
-}
+  padding: 0px 16px 32px;
+} */
 
 .team-member-social-media-list {
   display: flex;
