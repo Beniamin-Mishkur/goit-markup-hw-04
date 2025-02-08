@@ -383,11 +383,8 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
   column-gap: 24px;
   row-gap: 48px;
-  margin: auto;
-  width: 1128px;
 }
 
 .portfolio-list-item {
